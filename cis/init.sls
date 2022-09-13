@@ -2,8 +2,6 @@
     '1.1.1':   { 'Disable unused filesystems':                                          True }
 } %}
 
-os_family
-
 {% if grains['osfinger'] == 'Ubuntu-20.04' %}
 
 include:
